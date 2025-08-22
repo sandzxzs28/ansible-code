@@ -1,0 +1,5 @@
+---
+- hosts: all
+  become: yes
+  roles:
+  - /home/sandz/ansible/roles/geerlingguy.nginx
